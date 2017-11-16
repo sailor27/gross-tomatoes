@@ -2,6 +2,11 @@
   margin: 100px;
 }
 
+form {
+  width: 100%;
+}
+
+
 /*TABLE STYLING*/
 table {
   border-collapse: collapse;
@@ -34,7 +39,7 @@ td:first-child, th:first-child { /*title*/
 
 td:nth-child(2){ /*released year*/
   text-align: center;
-  /*background-color: pink;*/
+
 }
 
 td:nth-child(3){ /*studio*/
@@ -56,7 +61,7 @@ td:last-child {
 }
 
 th {
-  /*text-align: left;*/
+
   padding-left: 5px;
 }
 

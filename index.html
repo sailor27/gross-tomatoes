@@ -9,42 +9,43 @@
   </head>
   <body>
     <div class="container">
-      <form id="ratings-form">
-        <input id="movie-name" type="text" name="" value="" placeholder="Movie Name">
-        <input id="studio-name" type="text" name="" value="" placeholder="Studio">
-        <input id="year-released" type="text" name="" value="" placeholder="Year Released">
-        <input id="budget" type="text" name="" value="" placeholder="Budget">
-        <input id="gross" type="text" name="" value="" placeholder="Worldwide Gross">
-        <input id="tomato" type="text" name="" value="" placeholder="Rotten Tomatoes Rating">
+      <header>
+        <h1>Gross Tomatoes</h1>
+        <h3>Gross Tomatoes is the web's first crowd-sourced movie ratings and production data site! Just input a movie's name, the year it was released, it's budget, it's worldwide gross intake, and of course <em>your</em> rating, and see the information on this webpage.</h3>
+      </header>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Studio</th>
+              <th>Released</th>
+              <th>Budget</th>
+              <th>Worldwide Gross</th>
+              <th>Tomatometer</th>
+            </tr>
+          </thead>
+          <tbody id="movie-table">
+            <tr>
+              <td>Forest Gump </td>
+              <td>xyz studio</td>
+              <td>2006</td>
+              <td>$20,000,000</td>
+              <td>$15,000, 000</td>
+              <td>89%</td>
+            </tr>
+            <tr>
+            <form id="ratings-form">
+              <td><input id="movie-name" type="text" name="" value="" placeholder="Movie Name"></td>
+              <td><input id="studio-name" type="text" name="" value="" placeholder="Studio"></td>
+              <td><input id="year-released" type="text" name="" value="" placeholder="Year Released"></td>
+              <td><input id="budget" type="text" name="" value="" placeholder="Budget"></td>
+              <td><input id="gross" type="text" name="" value="" placeholder="Worldwide Gross"></td>
+              <td><input id="tomato" type="text" name="" value="" placeholder="Rotten Tomatoes Rating"></td>
+            </tr>
+          </tbody>
+        </table>
         <button type="submit" class= "btn-submit">Submit Rating</button>
       </form>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Studio</th>
-            <th>Released</th>
-            <th>Budget</th>
-            <th>Worldwide Gross</th>
-            <th>Tomatometer</th>
-          </tr>
-        </thead>
-        <tbody id="movie-table">
-          <tr>
-            <td>Forest Gump </td>
-            <td>xyz studio</td>
-            <td>2006</td>
-            <td>$20,000,000</td>
-            <td>$15,000, 000</td>
-            <td>89%</td>
-          </tr>
-
-
-        </tbody>
-      </table>
-
-
     </div>
   </body>
 </html>

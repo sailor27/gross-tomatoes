@@ -20,8 +20,8 @@ $(document).ready(function() {
     var  budget= $("input#budget").val();
     var  gross = $("input#gross").val();
     var  tomato = $("input#tomato").val();
-  
-    $("#movie-table").append(
+
+    $("#movie-table").prepend(
       "<tr>" +
         "<td>" + movieName + "</td>" +
         "<td>" + studioName + "</td>" +
