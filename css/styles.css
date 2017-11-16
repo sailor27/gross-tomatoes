@@ -1,0 +1,66 @@
+.container {
+  margin: 100px;
+}
+
+/*TABLE STYLING*/
+table {
+  border-collapse: collapse;
+  width: 100%
+  /*border: solid;*/
+}
+
+thead {
+  background-color: lightblue
+}
+
+td, th {
+  border: .5px solid;
+  padding: 10px;
+}
+tr {
+  border: .5px solid blue;
+  height: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+td:first-child, th:first-child { /*title*/
+  text-align: left;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+td:nth-child(2){ /*released year*/
+  text-align: center;
+  /*background-color: pink;*/
+}
+
+td:nth-child(3){ /*studio*/
+  text-align: center;
+}
+
+
+td:nth-child(4){/*Budget*/
+  text-align: right;
+}
+
+td:nth-last-child(2){ /*gross*/
+
+  text-align: right;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+th {
+  /*text-align: left;*/
+  padding-left: 5px;
+}
+
+td {
+  padding-left: 5px;
+}
+/*END OF TABLE STYING*/
