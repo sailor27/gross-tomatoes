@@ -1,5 +1,15 @@
 //business
 
+function Movie(movieName, studioName, yearReleased, budget, gross, tomato) {
+  this.movieName = movieName;
+  this.studioName = studioName;
+  this.yearReleased = yearReleased;
+  this.budget = budget;
+  this.gross = gross;
+  this.tomato = tomato;
+}
+
+
 function resetFields() {
     $("input#movie-name").val("");
     $("input#studio-name").val("");
@@ -20,6 +30,9 @@ $(document).ready(function() {
     var  budget= $("input#budget").val();
     var  gross = $("input#gross").val();
     var  tomato = $("input#tomato").val();
+    var newMovie = new Movie(movieName, studioName, yearReleased, budget, gross, tomato);
+
+    console.log(newMovie);
 
     $("#movie-table").prepend(
       "<tr>" +
