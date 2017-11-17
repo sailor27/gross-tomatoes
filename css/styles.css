@@ -1,9 +1,70 @@
-.container {
-  margin: 100px;
+
+@font-face {
+  font-family: 'Header';
+  src: url('../fonts/windsor_regular-webfont.woff2') format('woff2'),
+       url('../fonts/windsor_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-form {
-  width: 100%;
+
+body {
+  background: url(../img/tomato.jpg);
+  background-size: 40%;
+}
+
+.container {
+  margin: 50px 200px;
+  padding: 25px 50px;
+  height: 1500px;
+  background: white;
+
+}
+
+#entry {
+  margin-top: 100px;
+}
+
+h1{
+  font-family: "Header", serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+h2{
+  font-family: "Header", serif;
+  font-size: 20px;
+}
+
+/*FORM STYLING*/
+
+button{
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+
+input {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+
+  padding: 10px 10px 15px 10px;
+  border-radius: 20px;
+}
+
+
+input:focus {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
 }
 
 
@@ -15,7 +76,8 @@ table {
 }
 
 thead {
-  background-color: lightblue
+  background-color: lightblue;
+
 }
 
 td, th {
